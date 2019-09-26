@@ -1,0 +1,25 @@
+{
+  "name": "Soiled_JC",
+  "version": "1.0.0",
+  "description": "Project 2   - Kanban   - Auto kanban",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frootloops64/Soiled_JC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frootloops64/Soiled_JC/issues"
+  },
+  "homepage": "https://github.com/frootloops64/Soiled_JC#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}
