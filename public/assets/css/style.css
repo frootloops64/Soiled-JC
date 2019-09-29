@@ -15,17 +15,11 @@ img {
   height: 100px;
 }
 
-.navbar::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .navbar-header {
   float: left;
 }
 
-.navbar-collapse {
+.text-center {
   float: right;
 }
 
@@ -38,9 +32,22 @@ img {
 .fa {
   font-size: 30px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
-.modal {
-  /* display: none; */
+#registerBtn, #loginBtn {
+  display: block;
+  color: blue;
+  padding: 10px 10px;
 }
+
+.body {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+}
+
