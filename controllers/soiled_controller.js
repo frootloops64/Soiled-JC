@@ -12,6 +12,12 @@ router.get("/", function (req, res) {
     title: "Get Soil(ed)"
   });
 });
+
+router.get("/quote", function (req, res) {
+  res.render("quote", {
+    title: "Get a quote"
+  });
+});
 // });
 
 module.exports = router;
